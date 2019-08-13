@@ -1,9 +1,7 @@
 package com.chaochaogu.guava.ordering;
 
 import com.google.common.collect.Ordering;
-
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
