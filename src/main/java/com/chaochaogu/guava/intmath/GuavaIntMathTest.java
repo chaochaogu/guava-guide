@@ -25,7 +25,7 @@ public class GuavaIntMathTest {
         System.out.println(IntMath.divide(100, 5, RoundingMode.UNNECESSARY));
         try {
             //exception will be thrown as 100 is not completely divisible by 3 thus rounding
-            // is required, and RoundingMode is set as UNNESSARY
+            // is required, and RoundingMode is set as UNNECESSARY
             System.out.println(IntMath.divide(100, 3, RoundingMode.UNNECESSARY));
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
